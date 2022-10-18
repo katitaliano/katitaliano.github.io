@@ -6,17 +6,16 @@ html {
 }
 
 body {
-    
-
+    text-align: left;
 }
 
 header {
-    text-align: left;
+    /* padding: 5px; */
 }
 
 h1 {
     font-size: 2.5rem;
-    line-height: 2rem;;
+    line-height: 3rem;;
     color: darkslategray;
     padding: 20px;
     padding-top: 40px;
@@ -41,18 +40,24 @@ nav {
     text-align: right;
 }
 
+nav a {
+    border-left: 2px solid white;
+}
+
 a {
     color: white;   
     text-decoration: none;
-    padding: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 a:hover {
     color: black;
 }
 
-
-div {
+main, div {
     padding: 20px;
 }
 
@@ -76,8 +81,12 @@ footer {
 
 .container {
     display: flex;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
     justify-content: center;
 
+}
+
+.projectimage {
+    padding: 8px;
 }
 /* Your code here */
